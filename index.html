@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoアプリ</title>
+    <!-- Bootstrap CSS を読み込む -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">ToDoアプリ</h1>
+        <div class="input-group mb-3">
+            <input type="text" id="taskInput" class="form-control" placeholder="新しいタスクを追加...">
+            <div class="input-group-append">
+                <button id="addTask" class="btn btn-primary">追加</button>
+            </div>
+        </div>
+        <ul id="taskList" class="list-group"></ul>
+    </div>
+    
+    <!-- Bootstrap JavaScript を読み込む -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
